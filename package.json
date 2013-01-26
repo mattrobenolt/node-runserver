@@ -1,0 +1,22 @@
+
+{
+  "private": true,
+  "name": "runserver",
+  "version": "0.1.0",
+  "author": "Matt Robenolt <matt@ydekproductions.com>",
+  "contributors": [],
+  "bin": {
+    "runserver": "./bin/runserver"
+  },
+  "dependencies": {
+    "http-proxy": "*",
+    "express": "2.x",
+    "colors": "*",
+    "less": "*",
+    "optimist": "*"
+  },
+  "main": "main",
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
