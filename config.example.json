@@ -1,0 +1,12 @@
+{
+    "listen": 8000,
+    "router": {
+        "*.dev.disqus.org": "disqus_com"
+    },
+    "services": [{
+        "name": "disqus_com",
+        "cmd": "python {cwd}/dotcom/manage.py runserver 127.0.0.1:{port}",
+        "stderr": "red.bold",
+        "listen": 4000,
+    }]
+}
