@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "http-proxy": "*",
-    "express": "2.x",
+    "express": "3.x",
     "colors": "*",
     "less": "*",
     "optimist": "*"
