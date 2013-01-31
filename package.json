@@ -14,8 +14,7 @@
     "colors": "*",
     "less": "*",
     "optimist": "*",
-    "async": "*",
-    "node-sass": "*"
+    "async": "*"
   },
   "main": "main",
   "engines": {
