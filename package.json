@@ -15,7 +15,7 @@
     "less": "*",
     "optimist": "*",
     "async": "*",
-    "send": "*"
+    "node-sass": "*"
   },
   "main": "main",
   "engines": {
